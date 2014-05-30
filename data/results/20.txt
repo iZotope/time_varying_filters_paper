@@ -1,0 +1,65 @@
+#------------------------------------
+# Test: lowpass_freq
+# stimulus	 response
+df2.wav	15
+svf_r.wav	19
+gr.wav	29
+anchor.wav	3
+tdf2_rc.wav	64
+svf.wav	64
+tdf2.wav	83
+svf_rc.wav	58
+zz.wav	18
+reference.wav	100
+#------------------------------------
+# Test: lowpass_q
+# stimulus	 response
+df2.wav	100
+zz.wav	0
+svf_rc.wav	100
+gr.wav	26
+svf.wav	100
+svf_r.wav	19
+reference.wav	91
+tdf2_rc.wav	81
+tdf2.wav	80
+anchor.wav	0
+#------------------------------------
+# Test: peaking_freq
+# stimulus	 response
+zz.wav	0
+tdf2.wav	100
+svf_r.wav	10
+reference.wav	100
+tdf2_rc.wav	100
+anchor.wav	0
+df2.wav	16
+gr.wav	19
+svf.wav	100
+svf_rc.wav	100
+#------------------------------------
+# Test: peaking_gain
+# stimulus	 response
+tdf2_rc.wav	94
+zz.wav	24
+svf_r.wav	27
+gr.wav	24
+df2.wav	31
+anchor.wav	0
+svf.wav	32
+svf_rc.wav	49
+reference.wav	100
+tdf2.wav	100
+#------------------------------------
+# Test: peaking_q
+# stimulus	 response
+tdf2.wav	100
+gr.wav	24
+tdf2_rc.wav	69
+zz.wav	36
+reference.wav	100
+anchor.wav	0
+svf_rc.wav	23
+svf.wav	24
+df2.wav	24
+svf_r.wav	32
